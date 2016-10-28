@@ -1,0 +1,30 @@
+---
+title: Members
+---
+
+<header class='inset-header dark'>
+  <div class='container-fluid contain clearfix'>
+    <div>
+      <h1>Bacon ipsum dolor amet hamburger capicola</h1>
+      <p class='lead quiet'>Sirloin, ground round, fatback, lorem ipsum dolor sit amet</p>
+      <ul class='actions'>
+        <li>
+          <%= link_to 'See all talks', '/talks.html', class: 'btn btn-success' %>
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class='container-fluid contain'>
+  <nav class='space-bottom4 dark'>
+    <a href='/members.html' class='tab-link keyline-bottom quiet pad1y inline active'>Everyone  <span class='pull-right fill-darken1 img-circle center small pad0x space0l'>75</span></a>
+    <a href='/speakers.html' class='tab-link keyline-bottom quiet pad1y inline'>Speakers  <span class='pull-right fill-darken1 img-circle center small pad0x space0l'>15</span></a>
+  </nav>
+
+  <ul class='fill-white pad3 users round space-bottom4'>
+    <% 7.times do |num| %>
+      <%= partial 'member', locals: { last: num == 6 } %>
+    <% end %>
+  </ul>
+</div>

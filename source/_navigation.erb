@@ -1,0 +1,28 @@
+<header class='navbar dark animate pad2x contain clearfix pad2y' role='banner'>
+  <% link_to '/index.html', class: 'pull-left' do %>
+    <%= image_tag 'mountain.svg', height: 38 %>
+  <% end %>
+  <nav class='pull-left pad2x'>
+    <div class='small strong'>
+      <%= nav_tab 'Talks', '/talks.html' %>
+      <%= nav_tab 'Members', '/members.html' %>
+      <%= link_to 'Search', '#fakelink', class: 'tab-link keyline-bottom hidden-xs quiet pad1y inline' %>
+    </div>
+  </nav>
+  <div class='pull-right'>
+    <a href="#fakelink" class='inline pad1r'>
+      <div class='inline round fill-lighten0 dark avatar center'>
+        <i class='icon icon-plus quiet'></i>
+      </div>
+    </a>
+    <a href="#fakelink" class='inline pad1r'>
+      <div class='inline round fill-lighten0 dark avatar center'>
+        <i class='icon icon-bell quiet'></i>
+      </div>
+    </a>
+    <a href="#fakelink" class='inline pad1r'>
+      <div class='inline round fill-red dark avatar center'>ZW</div>
+      <span class='caret quiet'></span>
+    </a>
+  </div>
+</header>

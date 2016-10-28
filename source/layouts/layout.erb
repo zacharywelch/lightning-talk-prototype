@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset='UTF-8'/>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <title><%= current_page.data.title || "Axiom" %></title>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script>
+    <%= stylesheet_link_tag 'ladda-themeless', 'pace-theme-minimal', :kabu, :site %>
+    <%= javascript_include_tag :pace, :spin, :ladda, :kabu, :all %>
+  </head>
+
+  <body class="fill-dark <%= current_page.data.body_class %>">
+    <%= partial 'navigation' %>
+    <%= yield %>
+  </body>
+</html>
