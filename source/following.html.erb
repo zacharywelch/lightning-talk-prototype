@@ -1,0 +1,13 @@
+---
+layout: member
+title: Bruce Wayne
+tab: 'Following'
+---
+
+<ul class='fill-white pad3 users round space-bottom4'>
+  <% data.people.members.reject { |p| p[:name] == 'Bruce Wayne' }.first(5).each do |p| %>
+    <%= partial 'member', locals: { person: p, 
+                                    last: p == data.people.members.last 
+                                  } %>
+  <% end %>
+</ul>

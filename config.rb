@@ -34,7 +34,7 @@ helpers do
 
   def tab_link(title, url, options = {}, &block)
     options[:class] ||= ''
-    options[:class] << ' tab-link keyline-bottom inline pad1 quiet'
+    options[:class] << ' tab-link keyline-bottom quiet pad1y inline'
     options[:class] << ' active' if current_page.data.tab == title
     options[:href] = url
     content_tag :a, title, options, &block

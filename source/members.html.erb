@@ -23,8 +23,10 @@ title: Members
   </nav>
 
   <ul class='fill-white pad3 users round space-bottom4'>
-    <% 7.times do |num| %>
-      <%= partial 'member', locals: { last: num == 6 } %>
-    <% end %>
+    <% data.people.members.each do |person| %>
+      <%= partial 'member', locals: { person: person, 
+                                      last: person == data.people.members.last 
+                                    } %>
+    <% end %>    
   </ul>
 </div>

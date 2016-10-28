@@ -1,0 +1,17 @@
+---
+layout: member
+title: Bruce Wayne
+tab: 'Followers'
+---
+
+<ul class='fill-white pad3 users round space-bottom4'>
+  <% data.people.members.reject { |p| p[:name] == 'Bruce Wayne' }.each do |p| %>
+    <%= partial 'member', locals: { person: p, 
+                                    last: p == data.people.members.last 
+                                  } %>
+  <% end %>
+</ul>
+
+<div class='center dark space-bottom4'>
+  <a href='#fakelink' class='btn btn-default btn-wide'>Show more</a>
+</div>
