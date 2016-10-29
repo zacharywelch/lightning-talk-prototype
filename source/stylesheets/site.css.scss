@@ -1,6 +1,14 @@
 /* Global styles
 ------------------------------------------------------- */
 
+.avatar-lg {
+  width: 130px;
+  height: 130px;
+  line-height: 130px;
+  font-size: 32px;
+  font-family: 'Open Sans Bold';
+}
+
 .more-speakers { 
   width: 28px;
   height: 28px;
@@ -17,6 +25,8 @@
   width: 34px;
   height: 34px;  
 }
+
+#authmenu { right: auto; }
 
 textarea, input[type=password], input[type=text], input[type=email], input[type=number], input[type=email], select, .form-control {
   border-radius: 3px;
@@ -44,7 +54,7 @@ textarea, input[type=password], input[type=text], input[type=email], input[type=
   z-index: 1;
 }
 
-.navbar { z-index: 1 }
+.navbar { z-index: 10; }
 .navbar .avatar { 
   color: #fff;
   font-family: 'Open Sans Bold';
