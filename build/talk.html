@@ -14,7 +14,7 @@
 <a href="/" class="pull-left">    <img src="/images/mountain.svg" height="38" alt="Mountain" />
 </a>  <nav class='pull-left pad2x'>
     <div class='small strong'>
-      <a class=" tab-link keyline-bottom hidden-xs quiet pad1y inline" href="/talks.html">Talks</a>
+      <a class=" tab-link keyline-bottom hidden-xs quiet pad1y inline" href="/sessions.html">Talks</a>
       <a class=" tab-link keyline-bottom hidden-xs quiet pad1y inline" href="/members.html">Members</a>
       <a href="#fakelink" class="tab-link keyline-bottom hidden-xs quiet pad1y inline">Search</a>
     </div>
@@ -30,10 +30,17 @@
         <i class='icon icon-bell quiet'></i>
       </div>
     </a>
-    <a href="#fakelink" class='inline pad1r'>
+    <a href='#fakelink' class='inline pad1r' data-toggle='dropdown'>
       <div class='inline round fill-red dark avatar center'>ZW</div>
       <span class='caret quiet'></span>
     </a>
+    <ul id='authmenu' class='dropdown-menu' role='menu' aria-labelledby='dLabel'>
+      <li><a href='/profile.html'>Your profile</a></li>
+      <li><a href='#fakelink'>Settings</a></li>
+      <li class='divider'></li>
+      <li><a href='#fakelink'>Send feedback</a></li>
+      <li><a href='#fakelink'>Sign out</a></li>
+    </ul>
   </div>
 </header>
     <header class='inset-header talk dark center'>
@@ -50,7 +57,7 @@
       <div class='pad1x inline'>
         By
         <a href='/member.html'>
-          <img src="/images/hero.jpg" width="24" class="img-rounded" style="margin: 0 5px" alt="Hero" />Mordecai
+          <img src="/images/batman.jpg" width="24" class="img-rounded" style="margin: 0 5px" alt="Batman" />Bruce
         </a>
         <span>
           on <a href="/talks.html" class="quiet">October 2016</a>
@@ -89,13 +96,13 @@
         <p class='small quiet'>
           *Please note: each piece of leather will have slight variations and markings, making each journal truly one of a kind.
         </p>
-        <span class='fill-blue dark pad0 small round inline'>coding</span>
-        <span class='fill-blue dark pad0 small round inline'>magic</span>
-        <span class='fill-blue dark pad0 small round inline'>activerecord</span>
-        <span class='fill-blue dark pad0 small round inline'>devops</span>
-        <span class='fill-blue dark pad0 small round inline'>databases</span>
+        <span class='fill-blue dark pad0 small round inline space-bottom0'>coding</span>
+        <span class='fill-blue dark pad0 small round inline space-bottom0'>magic</span>
+        <span class='fill-blue dark pad0 small round inline space-bottom0'>activerecord</span>
+        <span class='fill-blue dark pad0 small round inline space-bottom0'>devops</span>
+        <span class='fill-blue dark pad0 small round inline space-bottom0'>databases</span>
       </section>
-      <section class='pad1y'>
+      <section class='pad0y'>
         <a id='comments'></a>
         <h4>23 Comments</h4>
         <div id='comment-1' class='media space-bottom'>

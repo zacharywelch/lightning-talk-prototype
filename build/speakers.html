@@ -14,7 +14,7 @@
 <a href="/" class="pull-left">    <img src="/images/mountain.svg" height="38" alt="Mountain" />
 </a>  <nav class='pull-left pad2x'>
     <div class='small strong'>
-      <a class=" tab-link keyline-bottom hidden-xs quiet pad1y inline" href="/talks.html">Talks</a>
+      <a class=" tab-link keyline-bottom hidden-xs quiet pad1y inline" href="/sessions.html">Talks</a>
       <a class=" tab-link keyline-bottom hidden-xs quiet pad1y inline active" href="/members.html">Members</a>
       <a href="#fakelink" class="tab-link keyline-bottom hidden-xs quiet pad1y inline">Search</a>
     </div>
@@ -30,10 +30,17 @@
         <i class='icon icon-bell quiet'></i>
       </div>
     </a>
-    <a href="#fakelink" class='inline pad1r'>
+    <a href='#fakelink' class='inline pad1r' data-toggle='dropdown'>
       <div class='inline round fill-red dark avatar center'>ZW</div>
       <span class='caret quiet'></span>
     </a>
+    <ul id='authmenu' class='dropdown-menu' role='menu' aria-labelledby='dLabel'>
+      <li><a href='/profile.html'>Your profile</a></li>
+      <li><a href='#fakelink'>Settings</a></li>
+      <li class='divider'></li>
+      <li><a href='#fakelink'>Send feedback</a></li>
+      <li><a href='#fakelink'>Sign out</a></li>
+    </ul>
   </div>
 </header>
     <header class='inset-header dark'>
@@ -43,7 +50,7 @@
       <p class='lead quiet'>Sirloin, ground round, fatback, lorem ipsum dolor sit amet</p>
       <ul class='actions pin-bottomright'>
         <li>
-          <a href="/talks.html" class="btn btn-success">See all talks</a>
+          <a href="/sessions.html" class="btn btn-success">See all talks</a>
         </li>
       </ul>
     </div>

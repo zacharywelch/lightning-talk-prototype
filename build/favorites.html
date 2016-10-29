@@ -3,7 +3,7 @@
   <head>
     <meta charset='UTF-8'/>
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-    <title>Lightning Talks</title>
+    <title>Mordecai</title>
     <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script>
     <link href="/stylesheets/ladda-themeless.css" rel="stylesheet" /><link href="/stylesheets/pace-theme-minimal.css" rel="stylesheet" /><link href="/stylesheets/kabu.css" rel="stylesheet" /><link href="/stylesheets/site.css" rel="stylesheet" />
     <script src="/javascripts/pace.js"></script><script src="/javascripts/spin.js"></script><script src="/javascripts/ladda.js"></script><script src="/javascripts/kabu.js"></script><script src="/javascripts/all.js"></script>
@@ -43,27 +43,63 @@
     </ul>
   </div>
 </header>
-    <header class='inset-header dark'>
-  <div class='container-fluid contain clearfix'>
-    <div>
-      <h1>Bacon ipsum dolor amet hamburger capicola</h1>
-      <p class='lead quiet'>Sirloin, ground round, fatback, lorem ipsum dolor sit amet</p>
+      <header class='inset-header dark profile'>
+    <div class='container-fluid contain clearfix'>
+      <div class='media contain member-profile'>
+        <a class='media-left pad1r' href='#fakelink'>
+          <img src="/images/batman.jpg" class="img-rounded" width="130" alt="Batman" />
+        </a>
+        <div class='media-body pad1l'>
+          <h1>
+            Bruce Wayne<span class='badge fill-lighten0 dark small pad1x round inline'>speaker</span>
+          </h1>
+          <p class='lead quiet'>Product designer at Bluth Company</p>
+          <ul class='stats'>
+            <li class='inline hidden-xs'>
+              <a href='/member.html' class='block pad2r text-default'>
+                <strong class='block space-bottom0'>15</strong>
+                <small class='quiet'>Talks</small>                
+              </a>
+            </li>
+            <li class='inline'>
+              <a href='/followers.html' class='block pad2x keyline-left text-default followers'>
+                <strong class='block space-bottom0'>26</strong>
+                <small class='quiet'>Followers</small>
+              </a>
+            </li>
+            <li class='inline'>
+              <a href='/following.html' class='block pad2x keyline-left text-default'>
+                <strong class='block space-bottom0'>5</strong>
+                <small class='quiet'>Following</small>
+              </a>
+            </li>
+            <li class='inline hidden-xs'>
+              <a href='/favorites.html' class='block pad2x keyline-left text-default'>
+                <strong class='block space-bottom0'>33</strong>
+                <small class='quiet'>Favorites</small>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
       <ul class='actions pin-bottomright'>
         <li>
-          <a href="/sessions.html" class="btn btn-success">See all talks</a>
-        </li>
+<a href="#fakelink" class="btn btn-primary">            <i class='icon icon-plus pad0r' style='margin-top: -2px;'></i>Follow
+</a>        </li>
       </ul>
     </div>
-  </div>
-</header>
+  </header>
 
-<div class='container-fluid contain'>
+  <div class='container-fluid contain'>
+    <nav class='space-bottom4 dark'>
+      <a class=" tab-link keyline-bottom quiet pad1y inline" href="/member.html">Talks</a>
+      <a class=" tab-link keyline-bottom quiet pad1y inline active" href="/favorites.html">Favorites</a>
+      <a class=" tab-link keyline-bottom quiet pad1y inline" href="/activity.html">Activity</a>
+      <a class=" tab-link keyline-bottom quiet pad1y inline" href="/followers.html">Followers</a>
+      <a class=" tab-link keyline-bottom quiet pad1y inline" href="/following.html">Following</a>      
+    </nav>
 
-  <nav class='space-bottom4 dark'>
-    <a href='/index.html' class='tab-link keyline-bottom quiet pad1y inline active'>Upcoming</a><a href='/recent.html' class='tab-link keyline-bottom quiet pad1y inline'>Recent</a><a href='#fakelink' class='tab-link keyline-bottom quiet pad1y inline'>Popular</a>
-  </nav>
-
-  <div class='contain clearfix talks' style='margin: -20px;'>
+    <div class='contain clearfix talks' style='margin: -20px;'>
   <div class='col-md-4 col-sm-6 pad2'>
     <div class='block fill-darken1 dark round pad3 contain row9'>
       <img src="/images/ribbon.svg" class="ribbon pin-topright" alt="Ribbon" />
@@ -331,7 +367,8 @@
   </div>
 
 </div>
-</div>
+
+  </div>
 
   </body>
 </html>
