@@ -185,3 +185,45 @@ a.quiet.dark,
   background-color: #3bb2d0;
   border-color: #3bb2d0;
 }
+
+/* responsive styles */
+
+@media (max-width: 899px) {
+  .pin-right,
+  .pin-bottomright { right: 20px; }
+
+  .pin-left,
+  .pin-bottomleft { left: 20px; }
+}
+
+@media (max-width: 767px) {
+  .inset-header.profile {
+    padding: 100px 0 30px 0;
+  }
+
+  .profile {
+    .media-left {
+      float: none;
+      display: inline-block;
+      margin-bottom: 10px;
+    }
+    .media-left img { width: 60px; }
+    .media-body { padding-left: 0; }
+    h1 { font-size: 24px; }
+    .actions { bottom: -2px; }
+  }
+
+  .tab-link { margin-right: 9px; }
+  .tab-link:last-child { margin-right: 0; }
+  .media-left img { width: 57px; }
+  .users .stats { padding-top: 7px; }
+  .followers { padding-left: 0; border-left: none !important; }
+  .following { padding-left: 10px; }
+  .users .stats li { padding-right: 5px; }
+  .pad3 { padding: 20px; }
+  .pad2 { padding: 10px; }
+  .pad4 { padding: 20px; }
+  .pad3x { padding-left: 20px; padding-right: 20px; }
+  .talks .pin-bottomright { padding-right: 0; }
+  .talks .row9 { height: 200px; }
+}
