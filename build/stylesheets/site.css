@@ -26,94 +26,107 @@
   height: 34px; }
 
 /* line 29, site.css.scss */
-#authmenu {
-  right: auto; }
-
-/* line 31, site.css.scss */
 textarea, input[type=password], input[type=text], input[type=email], input[type=number], input[type=email], select, .form-control {
   border-radius: 3px; }
 
-/* line 35, site.css.scss */
+/* line 33, site.css.scss */
 .ribbon {
   right: -4px;
   top: -4px;
   width: 82px; }
 
-/* line 41, site.css.scss */
+/* line 39, site.css.scss */
 .stats strong,
 .stats small {
   line-height: 1; }
 
-/* line 43, site.css.scss */
+/* line 41, site.css.scss */
 .stats strong {
   font-family: 'Open Sans Bold'; }
 
-/* line 44, site.css.scss */
+/* line 42, site.css.scss */
 .stats li:first-child {
   padding-left: 0; }
 
-/* line 45, site.css.scss */
+/* line 43, site.css.scss */
 .users li:first-child {
   padding-top: 0; }
 
-/* line 46, site.css.scss */
+/* line 44, site.css.scss */
 .users li:last-child {
   padding-bottom: 0; }
 
-/* line 47, site.css.scss */
+/* line 45, site.css.scss */
 .pad3 {
   padding: 30px; }
 
-/* line 48, site.css.scss */
+/* line 46, site.css.scss */
 .category .img-circle {
   margin-right: 10px; }
 
-/* line 49, site.css.scss */
+/* line 47, site.css.scss */
 .users p {
   margin-bottom: 13px; }
 
-/* line 50, site.css.scss */
+/* line 48, site.css.scss */
 .pad2r {
   padding-right: 20px; }
 
-/* line 51, site.css.scss */
+/* line 49, site.css.scss */
 .users .btn {
   top: 50%;
   margin-top: -20px;
   z-index: 1; }
 
-/* line 57, site.css.scss */
+/* line 55, site.css.scss */
 .navbar {
   z-index: 10; }
+  /* line 58, site.css.scss */
+  .navbar .btn {
+    font-size: 14px;
+    width: 38px;
+    height: 38px;
+    padding: 0;
+    line-height: 38px; }
+  /* line 66, site.css.scss */
+  .navbar .avatar {
+    color: #fff;
+    font-family: 'Open Sans Bold';
+    width: 38px;
+    height: 38px;
+    line-height: 38px;
+    font-size: 14px; }
 
-/* line 58, site.css.scss */
-.navbar .avatar {
-  color: #fff;
-  font-family: 'Open Sans Bold';
-  width: 38px;
-  height: 38px;
-  line-height: 38px;
-  font-size: 14px; }
+/* line 76, site.css.scss */
+#authmenu {
+  right: 20px; }
 
-/* line 66, site.css.scss */
+/* line 78, site.css.scss */
 .caret.quiet {
   color: #fff; }
 
-/* line 68, site.css.scss */
+/* line 80, site.css.scss */
+.user-nav > a {
+  margin-right: 15px; }
+  /* line 82, site.css.scss */
+  .user-nav > a:last-child {
+    margin-right: 0; }
+
+/* line 85, site.css.scss */
 .inset-header {
   position: relative;
   margin: -78px 0 40px 0;
   padding: 114px 0 34px 0;
   background: url(/images/banner.png) center top #272727;
   background-size: 1600px 700px; }
-  /* line 74, site.css.scss */
+  /* line 91, site.css.scss */
   .inset-header.talk {
     padding: 118px 0 55px 0; }
-  /* line 75, site.css.scss */
+  /* line 92, site.css.scss */
   .inset-header.profile {
     padding-bottom: 54px; }
 
-/* line 78, site.css.scss */
+/* line 95, site.css.scss */
 .inset-header:after {
   position: absolute;
   bottom: 0;
@@ -125,28 +138,28 @@ textarea, input[type=password], input[type=text], input[type=email], input[type=
   height: 20px;
   box-shadow: inset 0 -10px 10px 0 rgba(0, 0, 0, 0.09); }
 
-/* line 90, site.css.scss */
+/* line 107, site.css.scss */
 .actions {
   position: absolute;
   z-index: 5;
   bottom: -55px;
   right: 0; }
-  /* line 96, site.css.scss */
+  /* line 113, site.css.scss */
   .actions .btn {
     font-family: 'Open Sans Bold';
     padding-left: 20px;
     padding-right: 20px;
     text-transform: uppercase; }
-  /* line 103, site.css.scss */
+  /* line 120, site.css.scss */
   .actions li {
     display: inline; }
 
-/* line 106, site.css.scss */
+/* line 123, site.css.scss */
 .talk .actions,
 .profile .actions {
   bottom: -75px; }
 
-/* line 108, site.css.scss */
+/* line 125, site.css.scss */
 .profile .badge {
   margin-left: 10px;
   height: 24px;
@@ -155,49 +168,49 @@ textarea, input[type=password], input[type=text], input[type=email], input[type=
   vertical-align: middle;
   text-transform: uppercase; }
 
-/* line 117, site.css.scss */
+/* line 134, site.css.scss */
 .permalink {
   z-index: 1;
   width: 100%;
   height: 100%;
   padding-right: 100px; }
 
-/* line 124, site.css.scss */
+/* line 141, site.css.scss */
 .dark .btn-default {
   background: #484848; }
 
-/* line 126, site.css.scss */
+/* line 143, site.css.scss */
 .space0l {
   margin-left: 5px; }
 
-/* line 128, site.css.scss */
+/* line 145, site.css.scss */
 a.text-default,
 a.text-default:hover {
   color: inherit; }
 
-/* line 133, site.css.scss */
+/* line 150, site.css.scss */
 .col-sm-gutter {
   margin-right: 2%; }
 
-/* line 137, site.css.scss */
+/* line 154, site.css.scss */
 .col-sm-gutter:nth-child(3n+0) {
   margin-right: 0; }
 
-/* line 141, site.css.scss */
+/* line 158, site.css.scss */
 .col-sm-gutter {
   width: 32%; }
 
-/* line 145, site.css.scss */
+/* line 162, site.css.scss */
 .pad3x {
   padding-left: 30px;
   padding-right: 30px; }
 
-/* line 150, site.css.scss */
+/* line 167, site.css.scss */
 .btn {
   padding-left: 15px;
   padding-right: 15px; }
 
-/* line 155, site.css.scss */
+/* line 172, site.css.scss */
 .tab-link {
   padding-bottom: 7px;
   border-width: 3px;
@@ -205,40 +218,40 @@ a.text-default:hover {
   border-color: transparent;
   margin-right: 15px; }
 
-/* line 163, site.css.scss */
+/* line 180, site.css.scss */
 .tab-link.keyline-bottom {
   border-bottom: 3px solid transparent; }
 
-/* line 165, site.css.scss */
+/* line 182, site.css.scss */
 .tab-link.active {
   border-color: #3887be; }
 
 /* Prevents animation on initial page load. */
-/* line 170, site.css.scss */
+/* line 187, site.css.scss */
 body:not(.animate) .animate {
   -webkit-transition: none;
   -moz-transition: none;
   -ms-transition: none;
   transition: none; }
 
-/* line 177, site.css.scss */
+/* line 194, site.css.scss */
 .navbar {
   height: 80px; }
 
-/* line 179, site.css.scss */
+/* line 196, site.css.scss */
 a.quiet.dark,
 .dark a.quiet.active {
   color: #fff; }
 
 /* Existing style */
-/* line 186, site.css.scss */
+/* line 203, site.css.scss */
 .btn.ladda-button.disabled,
 .btn.ladda-button[disabled] {
   border: none;
   color: #fff;
   pointer-events: none; }
 
-/* line 193, site.css.scss */
+/* line 210, site.css.scss */
 .btn.ladda-button.disabled.btn-primary,
 .btn.ladda-button[disabled].btn-primary {
   background-color: #3bb2d0;
@@ -246,88 +259,88 @@ a.quiet.dark,
 
 /* responsive styles */
 @media (max-width: 899px) {
-  /* line 202, site.css.scss */
+  /* line 219, site.css.scss */
   .pin-right,
   .pin-bottomright {
     right: 20px; }
 
-  /* line 205, site.css.scss */
+  /* line 222, site.css.scss */
   .pin-left,
   .pin-bottomleft {
     left: 20px; } }
 @media (max-width: 767px) {
-  /* line 210, site.css.scss */
+  /* line 227, site.css.scss */
   .inset-header.profile {
     padding: 100px 0 30px 0; }
 
-  /* line 215, site.css.scss */
+  /* line 232, site.css.scss */
   .profile .media-left {
     float: none;
     display: inline-block;
     margin-bottom: 10px; }
-  /* line 220, site.css.scss */
+  /* line 237, site.css.scss */
   .profile .media-left img {
     width: 60px; }
-  /* line 221, site.css.scss */
+  /* line 238, site.css.scss */
   .profile .media-body {
     padding-left: 0; }
-  /* line 222, site.css.scss */
+  /* line 239, site.css.scss */
   .profile h1 {
     font-size: 24px; }
-  /* line 223, site.css.scss */
+  /* line 240, site.css.scss */
   .profile .actions {
     bottom: -2px; }
 
-  /* line 226, site.css.scss */
+  /* line 243, site.css.scss */
   .tab-link {
     margin-right: 9px; }
 
-  /* line 227, site.css.scss */
+  /* line 244, site.css.scss */
   .tab-link:last-child {
     margin-right: 0; }
 
-  /* line 228, site.css.scss */
+  /* line 245, site.css.scss */
   .media-left img {
     width: 57px; }
 
-  /* line 229, site.css.scss */
+  /* line 246, site.css.scss */
   .users .stats {
     padding-top: 7px; }
 
-  /* line 230, site.css.scss */
+  /* line 247, site.css.scss */
   .followers {
     padding-left: 0;
     border-left: none !important; }
 
-  /* line 231, site.css.scss */
+  /* line 248, site.css.scss */
   .following {
     padding-left: 10px; }
 
-  /* line 232, site.css.scss */
+  /* line 249, site.css.scss */
   .users .stats li {
     padding-right: 5px; }
 
-  /* line 233, site.css.scss */
+  /* line 250, site.css.scss */
   .pad3 {
     padding: 20px; }
 
-  /* line 234, site.css.scss */
+  /* line 251, site.css.scss */
   .pad2 {
     padding: 10px; }
 
-  /* line 235, site.css.scss */
+  /* line 252, site.css.scss */
   .pad4 {
     padding: 20px; }
 
-  /* line 236, site.css.scss */
+  /* line 253, site.css.scss */
   .pad3x {
     padding-left: 20px;
     padding-right: 20px; }
 
-  /* line 237, site.css.scss */
+  /* line 254, site.css.scss */
   .talks .pin-bottomright {
     padding-right: 0; }
 
-  /* line 238, site.css.scss */
+  /* line 255, site.css.scss */
   .talks .row9 {
     height: 200px; } }
